@@ -1,5 +1,3 @@
-drop table mst.ORDERS;
-
 create table mst.ORDERS
 (
     id int primary key auto_increment,

@@ -1,7 +1,5 @@
 create SCHEMA mst;
 
-drop schema mst;
-
 create table mst.CUSTOMERS
 (
     id int primary key auto_increment,
@@ -11,8 +9,6 @@ create table mst.CUSTOMERS
     phone_number varchar(225) not null
 );
 
-
-drop table mst.CUSTOMERS;
 
 insert into mst.CUSTOMERS  ( name, surname, age, phone_number)
 values  ('Ivan', 'Egorov',15,'+11111111' );
